@@ -1,4 +1,4 @@
-print("hello world")
+# print("hello world")
 
 # Elabator
 # inp = input("Europe Floor? ")
@@ -126,3 +126,18 @@ print("hello world")
 #     tot = tot + fval
 
 # print(tot, num, tot / num)
+
+# 시작 문자열 찾기
+# line = "Hello Don nice to meet you"
+# print(line.startswith("Hello"))
+
+# Practice7
+str = 'Hello  Don nice to meet you, this is fruit:3.102  '
+
+print(str)
+ipos = str.find(':')
+print(ipos)
+piece = str[ipos + 1:]
+print(piece)
+value = float(piece)
+print(value)
